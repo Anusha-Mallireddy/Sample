@@ -1,0 +1,33 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Arthimetic Function</title>
+</head>
+<body>
+<form action="#">
+<input type="text" name="firstDigit"/><br>
+<input type="text" name="secondDigit"/><br>
+<input type="submit" name="submit" value="Submit"/><br>
+</form>
+if(request.getParameter("submit")!=null){
+String s=(String)
+request.getParameter("First Digit");
+int integer.ParseInt(s);
+String s1=(String)
+request.getParameter("second Digit");
+int integer.ParseInt(s1);
+//Addition
+int sum=x+y;
+out.println("Addition of X and Y = "+sum);
+int sub=x-y;
+out.println("Addition of X and Y = "+sub);
+int mul=x*y;
+out.println("Addition of X and Y = "+mul);
+int div=x/y;
+out.println("Addition of X and Y = "+div);
+}
+</body>
+</html>

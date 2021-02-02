@@ -1,0 +1,5 @@
+127.0.0.1 - - [02/Feb/2021:09:41:45 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [02/Feb/2021:09:41:50 +0530] "GET /WebApp/Arthimetic.jsp HTTP/1.1" 200 338
+0:0:0:0:0:0:0:1 - - [02/Feb/2021:09:42:02 +0530] "GET /WebApp/Arthimetic.jsp?firstDigit=12&secondDigit=6&submit=Submit HTTP/1.1" 200 472
+0:0:0:0:0:0:0:1 - - [02/Feb/2021:09:42:56 +0530] "GET /WebApp/Checkbox.jsp HTTP/1.1" 200 277
+0:0:0:0:0:0:0:1 - - [02/Feb/2021:09:43:52 +0530] "GET /WebApp/String.jsp HTTP/1.1" 200 198

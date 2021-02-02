@@ -1,0 +1,6 @@
+package com.WebApp;
+import java.io.IOException;
+
+public class AddServlet6 extends HttpServlet{
+
+}
